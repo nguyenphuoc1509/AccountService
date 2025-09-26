@@ -19,7 +19,7 @@ public class SwaggerConfig {
                         .version("1.0")
                         .description("API documentation with multiple servers"))
                 .servers(List.of(
-                        new Server().url("http://localhost:8080").description("Local environment"),
+                        new Server().url("http://localhost:8081").description("Local environment"),
                         new Server().url("https://accountservice-production.up.railway.app").description("Staging environment"),
                         new Server().url("https://api.myapp.com").description("Production environment")
                 ));
